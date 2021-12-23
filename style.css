@@ -6,6 +6,7 @@ body {
 .header {
     background: #1F2937;
     color: white;
+    padding-bottom: 60px;
 }
 a {
     color: white;
@@ -16,21 +17,47 @@ ul{
 }
 .top {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 120px;
+    justify-content: center;
+    gap: 500px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 .right-links {
     display: flex;
-    gap: 16px;
+    gap: 30px;
+    justify-content: center;
 }
+
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 60px;
     align-items: center;
+    gap: 180px;
 }
 .left-bottom {
     display: flex;
     flex-direction: column;
     align-items: left;
+    width: 450px;
+    margin: 40px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+button.button1 {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+}
+.text1 {
+    margin-bottom: 20px;
 }
